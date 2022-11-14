@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(istockphoto-952039286-170667a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100vh;
+}
+header .head{  
+    padding: 12px 20px;
+    height: fit-content; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white; 
+}
+header .txt{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+header .head .logo{
+    font-size: 1.75rem;
+}
+header .head .list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px ;
+    font-size: 1.75rem;
+} 
